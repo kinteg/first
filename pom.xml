@@ -16,6 +16,7 @@
                 <configuration>
                     <source>8</source>
                     <target>8</target>
+<<<<<<< HEAD
 
                 </configuration>
             </plugin>
@@ -27,6 +28,15 @@
                     <processTypes>
                         <web>java $JAVA_OPTS -cp target/classes:target/dependency/* KintegBot</web>
                     </processTypes>
+=======
+                         <assembleDirectory>target</assembleDirectory>
+                    <programs>
+                        <program>
+                            <mainClass>KintegBot</mainClass>
+                            <name>worker</name>
+                        </program>
+                    </programs>
+>>>>>>> cc3feae87e5c5f5ee92a879386469c0bdaaed2b6
                 </configuration>
             </plugin>
         </plugins>
