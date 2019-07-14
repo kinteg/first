@@ -19,7 +19,7 @@
                     <programs>
                         <program>
                             <mainClass>KintegBot</mainClass>
-                            <name>workerBot</name>
+                            <name>worker</name>
                         </program>
                     </programs>
                 </configuration>
