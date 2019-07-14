@@ -21,6 +21,7 @@ public class KintegBot extends TelegramLongPollingBot {
     SimpleСommands simpleСommands;
 
     public static void main(String[] args) {
+
         ApiContextInitializer.init();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
         try {
