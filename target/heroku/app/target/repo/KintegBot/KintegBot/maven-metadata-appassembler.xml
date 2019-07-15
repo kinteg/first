@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>KintegBot</groupId>
+  <artifactId>KintegBot</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190715100032</lastUpdated>
+  </versioning>
+</metadata>
