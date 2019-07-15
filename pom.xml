@@ -23,7 +23,6 @@
                         <MY_VAR>SomeValue</MY_VAR>
                         <JAVA_OPTS>-Xss512k -XX:+UseCompressedOops</JAVA_OPTS>
                     </configVars>
-                    <warFile>relative/path/myapp.war</warFile>
                 </configuration>
             </plugin>
             <plugin>
