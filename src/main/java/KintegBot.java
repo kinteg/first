@@ -50,7 +50,7 @@ public class KintegBot extends TelegramLongPollingBot {
     }
 
     private String getMessage(String message) {
-        return Arrays.stream(message.split(" ")).skip(1).collect(Collectors.joining());
+        return Arrays.stream(message.split(" ")).skip(1).collect(Collectors.joining(" "));
     }
 
     //Отправка сообщения
