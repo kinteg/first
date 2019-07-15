@@ -4,7 +4,7 @@ public class SimpleСommands {
 
     public static String getSimpleCommands(String message, String command) {
 
-
+        message = message.trim();
         switch (command) {
             case "/start":
                 break;
