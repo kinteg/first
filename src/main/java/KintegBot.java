@@ -42,24 +42,6 @@ public class KintegBot extends TelegramLongPollingBot {
             if (!strMessage.equals("")) {
                 sendMsg(message, strMessage);
             }
-//            switch (message.getText()) {
-//                case "/removeSpaces":
-//                    deleteCommand()
-////                    message = update.getMessage();
-////                    sendMsg(message, "Введите текст: ");
-////                    sendMsg(message, message.getText() + message.getFrom().getFirstName());
-//
-//                    break;
-////                default:
-////                    int length = message.getText().length();
-////                    sendMsg(message,
-////                            (length <= 5 ? "Маленький " :
-////                             length <= 10 ? "Не очень большой " :
-////                             length <= 15 ? "Средний " :
-////                             length <= 20 ? "Относительно большой " :
-////                             length <= 30 ? "Большой " :
-////                             length <= 50 ? "Огромный " : "Как у коня ") + "хуй");
-//            }
         }
     }
 
