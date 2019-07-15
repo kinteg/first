@@ -6,9 +6,15 @@
     <groupId>KintegBot</groupId>
     <artifactId>KintegBot</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+    <!-- настройки проекта -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <jdk.version>1.8</jdk.version>
+    </properties>
     <build>
         <plugins>
-                 <plugin>
+            <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>2.0.8</version>
@@ -21,6 +27,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
