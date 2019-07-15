@@ -118,10 +118,10 @@ public class KintegBot extends TelegramLongPollingBot {
 
 
     public String getBotUsername() {
-        return "KintegBot";
+        return System.getenv("name");
     }
 
     public String getBotToken() {
-        return "666716072:AAF8mrVIKYoRHEYWLsyjRqV7eT7jupa7zA0";
+        return System.getenv("token");
     }
 }
