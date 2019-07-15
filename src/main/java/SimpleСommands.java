@@ -18,6 +18,8 @@ public class SimpleСommands {
                 return AlinaLoh.ok.get(new Random().nextInt(AlinaLoh.ok.size()));
             case "/coin":
                 return "И выпадает: " + (new Random().nextInt(2) == 0 ? "Орёл" : "Решка");
+            case "/magicBall":
+                return AlinaLoh.ok.get(new Random().nextInt(AlinaLoh.magicBall.size()));
             case "/fuck":
                 return "Сам иди в жопу";
 
