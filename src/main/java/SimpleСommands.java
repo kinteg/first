@@ -24,7 +24,7 @@ public class SimpleСommands {
                 int max = Arrays.stream(message.split(" ")).mapToInt(Integer::parseInt).max().getAsInt(),
                         min = Arrays.stream(message.split(" ")).mapToInt(Integer::parseInt).min().getAsInt();
                 int rand = new Random().nextInt(max - min + 1) + min;
-                return "Ваша цифра: " + rand;
+                return "Случайный результат между " + min + " и " + max + ": " + rand;
             case "/magicBall":
                 return AlinaLoh.magicBall.get(new Random().nextInt(AlinaLoh.magicBall.size()));
             case "/help":
