@@ -37,7 +37,6 @@ public class KintegBot extends TelegramLongPollingBot {
 
         if (message != null && message.hasText()) {
             String strMessage = message.getText();
-            System.out.println(message.getFrom().getFirstName() + ": " + strMessage);
             strMessage = SimpleСommands.getSimpleCommands(getMessage(strMessage), getCommand(strMessage, getMessage(strMessage)));
             if (!strMessage.equals("")) {
                 sendMsg(message, strMessage);
