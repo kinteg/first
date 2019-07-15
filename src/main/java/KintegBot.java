@@ -109,6 +109,7 @@ public class KintegBot extends TelegramLongPollingBot {
         //Добавляем кнопки
         keyboardFirstRow.add(new KeyboardButton("/coin"));
         keyboardFirstRow.add(new KeyboardButton("/ok"));
+        keyboardFirstRow.add(new KeyboardButton("//magicBall"));
 
         //Добавляем кнопки в массив
         keyboardRowList.add(keyboardFirstRow);
