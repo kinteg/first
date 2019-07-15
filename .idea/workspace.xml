@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f787a188-be7b-46c0-a1d9-ea4f21fd370f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlinaLoh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlinaLoh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SimpleСommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleСommands.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlinaLoh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="544">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SimpleСommands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="527">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563219667989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563219956891" />
     <property name="last.edited.regexp" value="" />
     <property name="last_opened_file_path" value="F:/Codewars/6kye" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -244,7 +245,7 @@
       <workItem from="1563134469428" duration="991000" />
       <workItem from="1563135642539" duration="2007000" />
       <workItem from="1563135642539" duration="1685000" />
-      <workItem from="1563180885225" duration="11584000" />
+      <workItem from="1563180885225" duration="11849000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1563141592731</created>
@@ -264,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33422000" />
+    <option name="totallyTimeSpent" value="33687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AlinaLoh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="544">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -380,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SimpleСommands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="527">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

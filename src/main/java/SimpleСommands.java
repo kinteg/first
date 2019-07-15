@@ -31,6 +31,8 @@ public class SimpleСommands {
                 return String.join("\n", AlinaLoh.help);
             case "/fuck":
                 return "Сам иди в жопу";
+            case "/hi":
+                return "И тебе привет!";
 
         }
         return "";
