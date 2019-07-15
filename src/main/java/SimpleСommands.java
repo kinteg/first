@@ -21,8 +21,8 @@ public class SimpleСommands {
             case "/coin":
                 return "И выпадает: " + (new Random().nextInt(2) == 0 ? "Орёл" : "Решка");
             case "/random":
-                int max = Integer.parseInt(Arrays.stream(message.split(" ")).min(String::compareTo).get()),
-                        min = Integer.parseInt(Arrays.stream(message.split(" ")).max(String::compareTo).get());
+                int max = Arrays.stream(message.split(" ")).mapToInt(Integer::parseInt).max().getAsInt(),
+                        min = Arrays.stream(message.split(" ")).mapToInt(Integer::parseInt).min().getAsInt();
                 return "Ваша цифра: " + (new Random().nextInt(max - min + 1) + min);
             case "/magicBall":
                 return AlinaLoh.magicBall.get(new Random().nextInt(AlinaLoh.magicBall.size()));
