@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.Collectors;
 
@@ -20,8 +21,8 @@ public class SimpleСommands {
             case "/coin":
                 return "И выпадает: " + (new Random().nextInt(2) == 0 ? "Орёл" : "Решка");
             case "/random":
-                int max = Integer.max(Integer.parseInt(message.split(" ")[0]), Integer.parseInt(message.split(" ")[0])),
-                min = Integer.min(Integer.parseInt(message.split(" ")[0]), Integer.parseInt(message.split(" ")[0]));
+                int max = Integer.parseInt(Arrays.stream(message.split(" ")).min(String::compareTo).get()),
+                        min = Integer.parseInt(Arrays.stream(message.split(" ")).max(String::compareTo).get());
                 return "Ваша цифра: " + (new Random().nextInt(max - min + 1) + min);
             case "/magicBall":
                 return AlinaLoh.magicBall.get(new Random().nextInt(AlinaLoh.magicBall.size()));
@@ -33,7 +34,6 @@ public class SimpleСommands {
         }
         return "";
     }
-
 
 
 }
