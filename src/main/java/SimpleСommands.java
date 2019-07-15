@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.stream.Collectors;
 
 public class SimpleСommands {
 
@@ -19,9 +20,13 @@ public class SimpleСommands {
             case "/coin":
                 return "И выпадает: " + (new Random().nextInt(2) == 0 ? "Орёл" : "Решка");
             case "/random":
-                return "Ваша цифра: " + new Random().nextInt(Integer.parseInt(message.split(" ")[0], Integer.parseInt(message.split(" ")[1])));
+                int max = Integer.max(Integer.parseInt(message.split(" ")[0]), Integer.parseInt(message.split(" ")[0])),
+                min = Integer.min(Integer.parseInt(message.split(" ")[0]), Integer.parseInt(message.split(" ")[0]));
+                return "Ваша цифра: " + (new Random().nextInt(max - min + 1) + min);
             case "/magicBall":
                 return AlinaLoh.magicBall.get(new Random().nextInt(AlinaLoh.magicBall.size()));
+            case "/help":
+                return String.join("\n", AlinaLoh.help);
             case "/fuck":
                 return "Сам иди в жопу";
 

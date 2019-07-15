@@ -27,4 +27,10 @@ public class AlinaLoh {
             "Даже не думай", "Мой ответ — «нет»", "По моим данным — «нет»", "Перспективы не очень хорошие", "Весьма сомнительно"
     ));
 
+    public static final ArrayList<String> help = new ArrayList(Arrays.asList(
+            "/coin - бросок монетки", "/ok - случайный ответ", "/magicBall - магический шар",
+            "/random [первая цифра] [вторая цифра]", "/removeSpaces [текст] - удаляет пробелы",
+            "/fuck - посылает вас в жопу"
+    ));
+
 }
