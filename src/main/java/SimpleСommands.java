@@ -34,7 +34,7 @@ public class SimpleСommands {
             case "/hi":
                 return "И тебе привет!";
             case "/games":
-                return "И тебе привет!";
+                return AlinaLoh.games.get(new Random().nextInt(AlinaLoh.games.size()));
 
         }
         return "";
