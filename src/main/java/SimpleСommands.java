@@ -33,6 +33,8 @@ public class SimpleСommands {
                 return "Сам иди в жопу";
             case "/hi":
                 return "И тебе привет!";
+            case "/games":
+                return "И тебе привет!";
 
         }
         return "";
