@@ -37,6 +37,8 @@ public class SimpleСommands {
                 return AlinaLoh.games.get(new Random().nextInt(AlinaLoh.games.size()));
             case "/goblin":
                 return "https://www.youtube.com/watch?v=00Zmbc9L_Hk";
+            case "/robot":
+                return "I'm robot";
 
         }
         return "";
