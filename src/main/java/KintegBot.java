@@ -18,8 +18,6 @@ import java.util.stream.Collectors;
 public class KintegBot extends TelegramLongPollingBot {
 
 
-    SimpleСommands simpleСommands;
-
     public static void main(String[] args) {
 
         ApiContextInitializer.init();

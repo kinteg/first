@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Random;
-import java.util.stream.Collectors;
 
 public class SimpleСommands {
 
@@ -12,12 +11,10 @@ public class SimpleСommands {
                 break;
             case "/removeSpaces":
                 return message.replaceAll(" ", "");
-            case "/alina":
-                return AlinaLoh.list.get(new Random().nextInt(AlinaLoh.list.size()));
-            case "/Photo":
-                return AlinaLoh.photoAlina.get(new Random().nextInt(AlinaLoh.photoAlina.size()));
+
+
             case "/ok":
-                return AlinaLoh.ok.get(new Random().nextInt(AlinaLoh.ok.size()));
+                return HardCommands.ok.get(new Random().nextInt(HardCommands.ok.size()));
             case "/coin":
                 return "И выпадает: " + (new Random().nextInt(2) == 0 ? "Орёл" : "Решка");
             case "/random":
@@ -26,19 +23,10 @@ public class SimpleСommands {
                 int rand = new Random().nextInt(max - min + 1) + min;
                 return "Случайный результат между " + min + " и " + max + ": " + rand;
             case "/magicBall":
-                return AlinaLoh.magicBall.get(new Random().nextInt(AlinaLoh.magicBall.size()));
+                return HardCommands.magicBall.get(new Random().nextInt(HardCommands.magicBall.size()));
             case "/help":
-                return String.join("\n", AlinaLoh.help);
-            case "/fuck":
-                return "Сам иди в жопу";
-            case "/hi":
-                return "И тебе привет!";
-            case "/games":
-                return AlinaLoh.games.get(new Random().nextInt(AlinaLoh.games.size()));
-            case "/goblin":
-                return "https://www.youtube.com/watch?v=00Zmbc9L_Hk";
-            case "/robot":
-                return "I'm robot";
+                return String.join("\n", HardCommands.help);
+
 
         }
         return "";
